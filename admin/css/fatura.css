@@ -1,0 +1,48 @@
+﻿#topbar {
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #808080;
+    padding: 10px 0px;
+    min-height: 0px;
+    overflow: hidden;
+    position:fixed;
+    z-index:9999;
+    margin-top:-60px;
+    background-color:#FFF;
+}
+
+td {
+    padding: 5px;
+}
+
+#div_bottom {
+    min-height:10px;
+    overflow:hidden;
+    margin-top:60px;
+}
+
+#fatura {
+    font-family:Arial;
+}
+
+input[type=text] {
+padding:3px; text-align:center;
+}
+input[type=button] {
+padding:4px; background-color:#C11513; border:1px solid #FFF; color:#FFF;
+}
+
+.item {
+    font-size:11px;
+    background-color:transparent;
+    z-index:99999;
+    background-color:#FFF;
+    overflow:hidden;
+}
+
+.draggable {
+    z-index: 9999;
+    font-size:11px;
+    position:absolute;
+    width:200;
+}
